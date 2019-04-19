@@ -1,0 +1,23 @@
+
+<!--
+<app-article *ngFor="let article of this.articles() | async" [article]="article">
+</app-article>
+-->
+<!--
+<app-article *ngFor="let article of this.articles().subscribe()" [article]="article">
+</app-article>
+-->
+
+
+<form id="filter">
+    <label>Search bar :</label>
+    <input type = "text" [(ngModel)] = "term"  [ngModelOptions]="{standalone: true}"/>
+</form>
+
+<div *ngFor="let article of this.articles | filter : term">
+
+<!--
+<div ng-repeat="article in this.articles">
+-->
+    <app-article  [article]="article" (deletedArticle)="delete($event)"></app-article>
+</div>

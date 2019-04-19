@@ -1,0 +1,40 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "My First Article",
+      "content": "Hello World",
+      "authors": "Orangefire"
+    },
+    {
+      "id": 2,
+      "title": "Angular component",
+      "content": "Angular component looks awesome!",
+      "authors": "Orangefire"
+    },
+    {
+      "id": 3,
+      "title": "Angular service",
+      "content": "I read something about angular service, i will try it soon",
+      "authors": "Orangefire"
+    },
+    {
+      "title": "Fake Title",
+      "content": "test content",
+      "authors": "teset authors",
+      "id": 4
+    },
+    {
+      "title": "Title art",
+      "content": "art content 1",
+      "authors": "authors 1",
+      "id": 5
+    },
+    {
+      "title": "aaaa",
+      "content": "aaaa",
+      "authors": "aaaa",
+      "id": 6
+    }
+  ]
+}
